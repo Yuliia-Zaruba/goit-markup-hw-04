@@ -147,14 +147,14 @@ img {
 
 .hero {
   padding: 188px 0;
-  background-color: #2e2f42;
-  color: #fff;
+  /* background-color: #2e2f42; */
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  /* color: #fff; */
   background-position: center;
   background-size: cover;
   max-width: 1440px;
   margin: 0 auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
-  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -169,9 +169,9 @@ img {
   color: #fff;
 }
 
-button {
+/* button {
   cursor: pointer;
-}
+} */
 
 .hero-button {
   font-family: inherit;
@@ -180,7 +180,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  /* cursor: pointer; */
+  cursor: pointer;
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
@@ -188,10 +188,7 @@ button {
   min-width: 169px;
   height: 56px;
   margin: 0 auto;
-  align-items: center;
-  /* transition-property: backgraund-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  /* align-items: center; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ------Додала hover FOCUS------ */
