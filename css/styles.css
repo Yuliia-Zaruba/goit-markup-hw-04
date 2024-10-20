@@ -56,6 +56,7 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
+  /* margin-right: auto; */
 }
 
 .logo {
@@ -205,6 +206,35 @@ button {
   padding: 120px 0;
 }
 
+.service-list {
+  display: flex;
+  gap: 24px;
+}
+
+.service-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  /* text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); */
+}
+
+.service-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.service-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ------ Изменения--------- */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -219,15 +249,6 @@ button {
   overflow: hidden;
 }
 
-.service-list {
-  display: flex;
-  gap: 24px;
-}
-
-.service-item {
-  width: calc((100% - 3 * 24px) / 4);
-}
-
 .hero-icon {
   display: flex;
   align-items: center;
@@ -239,23 +260,6 @@ button {
   height: 112px;
   background-color: #f4f4fd;
   /* width: calc((100% - 3 * 24px) / 4); */
-}
-
-.service-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-
-.service-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /* .icons {
@@ -320,8 +324,6 @@ button {
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
-  /* background-color: #31d0aa; */
-  /* fill: #31d0aa; */
 }
 
 .social-icons {
@@ -419,7 +421,7 @@ button {
   color: #434455;
 }
 
-.portfolio-cower-wraper {
+.portfolio-cower-wrapper {
   position: relative;
   overflow: hidden;
 }
